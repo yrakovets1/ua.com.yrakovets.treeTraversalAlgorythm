@@ -13,6 +13,7 @@ public class CoinTest {
 
     //don't make comment like this. it's uninformative, garbage
     //ok, I understand
+    //wtf??
     @Test
     public void simpleTest2(){
         CoinAlgorythm alg = new CoinAlgorythm(81);
