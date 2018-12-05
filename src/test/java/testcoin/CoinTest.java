@@ -11,6 +11,7 @@ public class CoinTest {
         Assert.assertEquals(" 50 50 50 10 5 2 1", alg.print());
     }
 
+    //Checked
     @Test
     public void simpleTest2(){
         CoinAlgorythm alg = new CoinAlgorythm(81);
