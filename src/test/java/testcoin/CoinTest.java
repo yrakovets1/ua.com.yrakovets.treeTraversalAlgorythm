@@ -11,4 +11,9 @@ public class CoinTest {
         Assert.assertEquals(" 50 50 50 10 5 2 1", alg.print());
     }
 
+    @Test
+    public void wrongTest(){
+        //throw new IllegalArgumentException();
+    }
+
 }
