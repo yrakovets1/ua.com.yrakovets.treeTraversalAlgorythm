@@ -11,7 +11,9 @@ public class CoinTest {
         Assert.assertEquals(" 50 50 50 10 5 2 1", alg.print());
     }
 
-    //dont make comment like this. it's uninformative, garbage
+    //don't make comment like this. it's uninformative, garbage
+    //ok, I understand
+    //wtf??
     @Test
     public void simpleTest2(){
         CoinAlgorythm alg = new CoinAlgorythm(81);
