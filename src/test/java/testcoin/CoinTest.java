@@ -13,9 +13,9 @@ public class CoinTest {
 
     @Test
     public void simpleTest2(){
-        CoinAlgorythm alg = new CoinAlgorythm(71);
+        CoinAlgorythm alg = new CoinAlgorythm(81);
         alg.run();
-        Assert.assertEquals(" 50 10 10 2 1", alg.print());
+        Assert.assertEquals(" 50 25 5 1", alg.print());
     }
 
 }
