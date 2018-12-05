@@ -12,6 +12,7 @@ public class CoinTest {
     }
 
     //Checked
+    //Checked again
     @Test
     public void simpleTest2(){
         CoinAlgorythm alg = new CoinAlgorythm(81);
