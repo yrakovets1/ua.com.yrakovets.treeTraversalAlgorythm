@@ -1,11 +1,14 @@
 package testcoin;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 public class CoinTest {
-    public static void main(String[] args){
+    @Test
+    public void simpleTest(){
         CoinAlgorythm alg = new CoinAlgorythm(168);
         alg.run();
-        System.out.println(alg.print());
+        Assert.assertEquals(" 50 50 50 10 5 2 1", alg.print());
     }
-
 
 }
