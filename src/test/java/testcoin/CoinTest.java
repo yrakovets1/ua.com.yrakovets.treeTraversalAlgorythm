@@ -12,8 +12,10 @@ public class CoinTest {
     }
 
     @Test
-    public void wrongTest(){
-        //throw new IllegalArgumentException();
+    public void simpleTest2(){
+        CoinAlgorythm alg = new CoinAlgorythm(93);
+        alg.run();
+        Assert.assertEquals(" 50 25 10 5 2 1", alg.print());
     }
 
 }
